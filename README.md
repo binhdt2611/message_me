@@ -21,4 +21,11 @@ Things you may want to cover:
 
 * Deployment instructions
 
+
+WebSocket with AcitionCable
+1. Generate a chatroom channel
+2. Update message_controller create
+   - Broadcast data to chatroom channel
+3. Write some JS to handle the data
+   - receive data and append to chat window 
 * ...
